@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "freshedgarT",
+    "description": "",
+    "privacy": "unlisted",
+    "sdkVersion": "28.0.0",
+    "slug": "freshedgarT-app",
+    "scheme": "freshedgarT",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#EF626C",
+    "notification": {
+      "color": "#000000",
+      "androidMode": "default"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 30000
+    },
+    "ios": {
+      "bundleIdentifier": "eu.freshedgarT",
+      "supportsTablet": false,
+      "buildNumber": "18.09.03",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription":
+          "Allow freshedgarT to access your location.",
+        "LSApplicationQueriesSchemes": ["whatsapp"]
+      }
+    },
+    "android": {
+      "package": "eu.freshedgarT",
+      "versionCode": 6,
+      "permissions": []
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": ["assets/images/splash.png"],
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#000001"
+    }
+  }
+}
